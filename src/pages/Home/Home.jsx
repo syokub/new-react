@@ -46,7 +46,7 @@ export const Home = () => {
   }, [user, pwd]);
 
   const onFinish = (data) => {
-    console.log(data);
+    console.log("data", data);
   };
   const onFinishFailed = (data) => {};
 
